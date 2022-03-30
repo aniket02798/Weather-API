@@ -4,6 +4,7 @@ const hbs = require('hbs')
 const weather_api = require('./weather')
 
 const app = express()
+const port = process.env.PORT || 3000
 
 const public_directory = path.join(__dirname,'../public')
 const view_path = path.join(__dirname,'../templates/views')
@@ -43,6 +44,6 @@ app.get('/weather',(req,res) => {
     })
 })
 
-app.listen(3000,() => {
-    console.log('Server Started on 3000....!!!')
+app.listen(port,() => {
+    console.log('Server Started on '+port)
 })
