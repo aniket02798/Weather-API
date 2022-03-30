@@ -1,7 +1,7 @@
 // let value\// let data
 const request = require('request')
 const weather = function(location ,callback){
-    const access_key = 'd2c32ef63b406dd0764ce4585297a795' 
+    const access_key = '328e8b940dd39f592e234a1508880384' 
     const url = 'http://api.weatherstack.com/current?access_key=' + access_key + '&query=' + location + '&units='
         request({url, json: true }, (error, {body}) => {
             if(error){
