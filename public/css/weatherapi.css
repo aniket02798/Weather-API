@@ -2,17 +2,31 @@
     width: 450px;
     height: 50px;
     border-radius: 15px;
-    margin-top: 190px;
+    margin-top: 150px;
     font-size: 20px;
+    /* opacity:0.5; */
+}
+/* .header{
+    color: black;
+} */
+h1{
+    font-weight: bolder;
 }
 h2{
     padding: 20px;
     color: black;
+    font-size: 35px;
+    font-family: 'middleton';
 }
 body{
-    background-image: url(../img/image1.jpg);
+    /* color: black; */
+    font-family: 'middleton';
+    background-image: url(../img/image5.jpg);
+    /* background-image: url('https://www.itl.cat/downwall/iTwiibJ_4k-wallpaper-nature-dark'); */
     background-repeat: no-repeat;
     background-size: cover;
+    /* width: auto; */
+    height: 100%;
     /* background-color: aqua; */
     /* opacity:0.5; */
 }

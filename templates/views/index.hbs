@@ -14,12 +14,21 @@
     <title>Weather API Using Node</title>
 </head>
 <body>
-    {{!-- {{>header}} --}}
-    <div class="container-fluid text-center p-5">
+    
+    <div class="container-fluid text-center p-5 ">
+        {{!-- <div class="m-3 header">
+            {{>header}}
+        </div> --}}
+        <h1>Weather API</h1>
         <form>
             <input type="text" id="dist" class="text-center input-field" placeholder="Enter the city name" autocomplete="off">
             {{!-- <input type="submit" value="CLICK ME" name="ck_weather" id="button" class="btn btn-danger"> --}}
-            <button class="btn btn-danger">Search</button>
+            
+            {{!-- <div class="text-center mt-4">
+                <button class="btn btn-danger">Search</button>
+            </div> --}}
+            
+            
         </form>
     
         <h2 id="message1"></h2>
@@ -30,7 +39,7 @@
         
 
     </div>
-    {{!-- {{>footer}} --}}
+    {{>footer}}
     <script src="/js/app.js"></script>
 </body>
 </html>
