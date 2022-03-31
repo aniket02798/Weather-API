@@ -6,6 +6,7 @@ const msg1 = document.querySelector('#message1')
 const msg2 = document.querySelector('#message2')
 const msg3 = document.querySelector('#message3')
 const msg4 = document.querySelector('#message4')
+// const msg5 = document.querySelector('#message5')
 
 weatherform.addEventListener('submit',(e) => {
     e.preventDefault()
@@ -29,7 +30,10 @@ weatherform.addEventListener('submit',(e) => {
                 msg1.textContent ='Temprature:- '+data.forecast.current.temperature +'\xB0C'
                 msg2.textContent = 'Wind Direction:- ' + data.forecast.current.wind_dir
                 msg3.textContent = 'Wind Speed:- '+data.forecast.current.wind_speed +'km/h'
+                // const path = data.forecast.current.weather_icons[0]
+                // msg5.setAttribute('src',path)
                 msg4.textContent = 'Weather Description:- '+data.forecast.current.weather_descriptions  
+                
                              // msg2.textContent = data.current.temperature
                 // msg3.textContent = data.forecast
             }
