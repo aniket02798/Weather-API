@@ -6,11 +6,15 @@
     font-size: 30px;
     /* opacity:0.5; */
 }
+/* .container-fluid{
+    height: 100%;
+} */
 /* .header{
     color: black;
 } */
 h1{
     font-weight: bolder;
+    text-align: center;
 }
 h2{
     padding: 20px;
@@ -19,15 +23,24 @@ h2{
     font-size: 35px;
     font-family: 'middleton';
 }
-body{
-    /* color: black; */
+/* body{
     font-family: 'middleton';
-    background-image: url(../img/image5.jpg);
-    /* background-image: url('https://www.itl.cat/downwall/iTwiibJ_4k-wallpaper-nature-dark'); */
+    background: url(../img/image5.jpg);
     background-repeat: no-repeat;
     background-size: cover;
-    /* width: auto; */
-    height: 100%;
-    /* background-color: aqua; */
-    /* opacity:0.5; */
-}
+    width: 100%;
+} */
+body{
+    margin: 0;
+    font-family: 'middleton';
+    /* background-color: linear-gradiet(300deg, #757b87, #909d9d); */
+    display: flex;
+    justify-content:center;
+    align-items: center;
+    min-height: 100vh;
+    flex-direction:column;
+    background-size: cover;
+    color: black;
+    background-image: url(/img/image5.jpg);
+    
+    }
